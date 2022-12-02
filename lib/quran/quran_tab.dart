@@ -151,7 +151,7 @@ class QuranTab extends StatelessWidget {
           Expanded(
             child: ListView.separated(
                 itemBuilder: (context, index) {
-                    return SuraName(name:names[index] ,index: index);
+                    return ItemSuraName(name:names[index] ,index: index);
                 },
                 separatorBuilder: (context, index) {
                   return  Divider(
