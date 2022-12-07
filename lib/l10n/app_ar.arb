@@ -6,5 +6,11 @@
 "radio":"راديو",
 "settings":"الاعدادات",
 "suraName":"اسم السوره",
-"hadethName":"حديث"
+"hadethName":"حديث",
+"language" :"اللغه",
+"theming":"النمط",
+"english" : "الانجليزيه",
+"arabic" :"العربيه",
+"dark" :"ليلى",
+"light":"مضئ"
 }

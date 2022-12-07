@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:islami_app/home/radio_tab.dart';
+import 'package:islami_app/settings/settings_tab.dart';
 import 'package:islami_app/home/tasbeh_tab.dart';
 import 'package:islami_app/my_theme_data.dart';
 import 'package:islami_app/quran/quran_tab.dart';
@@ -66,7 +67,10 @@ class _HomeScreenState extends State<HomeScreen> {
                     icon: ImageIcon(
                       AssetImage('assets/images/ic_radio.png'),
                     ),
-                    label: AppLocalizations.of(context)!.radio)
+                    label: AppLocalizations.of(context)!.radio),
+                BottomNavigationBarItem(
+                    icon: Icon(Icons.settings),
+                    label: AppLocalizations.of(context)!.settings)
               ],
             ),
           ),
@@ -76,5 +80,5 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  List<Widget> tabs = [QuranTab(), HadethTab(), TasbehTab(), RadioTab()];
+  List<Widget> tabs = [QuranTab(), HadethTab(), TasbehTab(), RadioTab(),SettingsTap()];
 }

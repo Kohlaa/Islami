@@ -6,5 +6,11 @@
 "radio":"Radio",
 "settings":"Settings",
 "suraName":"Sura Name",
-"hadethName":"Hadeth"
+"hadethName":"Hadeth",
+"language" :"Language",
+"theming":"Theming",
+"english" : "English",
+"arabic" :"Arabic",
+"dark" :"Dark",
+"light":"Light"
 }
